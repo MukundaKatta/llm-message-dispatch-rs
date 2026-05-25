@@ -1,0 +1,12 @@
+[package]
+name = "llm-message-dispatch"
+version = "0.1.0"
+edition = "2021"
+description = "Route incoming messages to named handlers based on keyword or prefix rules"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/llm-message-dispatch-rs"
+keywords = ["llm", "agent", "routing", "dispatch", "messages"]
+categories = ["text-processing"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
