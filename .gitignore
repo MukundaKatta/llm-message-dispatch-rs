@@ -1,0 +1,11 @@
+# Compiled output
+/target
+
+# Library crates should not commit Cargo.lock
+Cargo.lock
+
+# Backup files
+**/*.rs.bk
+
+# Editor/OS noise
+.DS_Store
